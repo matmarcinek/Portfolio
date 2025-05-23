@@ -10,7 +10,13 @@ A concise data analysis project exploring Airbnb listings in New York City using
 
 ## 📁 Structure
 
-/AirBnb/
-├── data/ # Dataset
-├── notebooks/ # Jupyter Notebook analysis
-├── visualizations/ # Tableau dashboard
+<pre> /AirBnb/
+│
+├── data/
+│   └── Airbnb_Open_Data python analiza.csv      # Source dataset
+│
+├── notebooks/
+│   └── Airbnb python script 1.ipynb             # Python data analysis
+│
+├── visualizations/
+│   └── Airbnb New York tableau package.twbx     # Tableau dashboard </pre>   
