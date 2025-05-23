@@ -3,12 +3,12 @@
 
 A concise data analysis project exploring Airbnb listings in New York City using Python and Tableau.
 
-#### 🔍 Overview
+### 🔍 Overview
 - Analyzed Airbnb data with **Python** (Pandas, Seaborn, Matplotlib)
 - Visualized key trends using **Tableau**
 - Explored **pricing**, **room types**, and **neighborhood distributions**
 
-#### 📁 Structure
+### 📁 Structure
 
 <pre> /AirBnb/
 │
