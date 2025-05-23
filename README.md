@@ -8,15 +8,3 @@ A concise data analysis project exploring Airbnb listings in New York City using
 - Visualized key trends using **Tableau**
 - Explored **pricing**, **room types**, and **neighborhood distributions**
 
-### 📁 Structure
-
-<pre> /AirBnb/
-│
-├── data/
-│   └── Airbnb_Open_Data python analiza.csv      # Source dataset
-│
-├── notebooks/
-│   └── Airbnb python script 1.ipynb             # Python data analysis
-│
-├── visualizations/
-│   └── Airbnb New York tableau package.twbx     # Tableau dashboard </pre>   
