@@ -19,6 +19,10 @@ A concise data analysis project exploring Airbnb listings in New York City using
 
 
 
+
+
+
+
 ### 🏙️[Project 2: Decoding the Cubs Offensive Performance Through Data](https://github.com/matmarcinek/Decoding-the-Cubs-Offensive-Performance-Through-Data)
 
 
