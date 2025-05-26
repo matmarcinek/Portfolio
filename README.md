@@ -27,8 +27,8 @@ A concise data analysis project exploring Airbnb listings in New York City using
 
 
 ### 🔍 Overview
-This project explores the offensive performance of the Chicago Cubs using structured ** SQL**  queries on Major League Baseball data. The analysis covers key player statistics, team-wide metrics, and historical trends to highlight standout performances and long-term contributors to the franchise.
-The entire analysis was performed using SQL and dashboard development in tools like ** Power BI** .
+This project explores the offensive performance of the Chicago Cubs using **PostgreSQL** queries on Major League Baseball data. The analysis covers key player statistics, team-wide metrics, and historical trends to highlight standout performances and long-term contributors to the franchise.
+The entire analysis was performed using SQL and dashboard development in tools like **Power BI**  .
 
 ### 🛠 Tools & Technologies
 - **PostgreSQL** – Querying and aggregation
