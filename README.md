@@ -8,7 +8,7 @@ A concise data analysis project exploring Airbnb listings in New York City using
 - Visualized key trends using **Tableau**
 - Explored **pricing**, **room types**, and **neighborhood distributions**
 
-## 🛠 Tools & Technologies
+### 🛠 Tools & Technologies
 - **Python** – Pandas, Seaborn, Matplotlib
 - **Jupyter Notebook**
 - **Tableau Desktop**
@@ -23,7 +23,7 @@ A concise data analysis project exploring Airbnb listings in New York City using
 This project explores the offensive performance of the Chicago Cubs using structured SQL queries on Major League Baseball data. The analysis covers key player statistics, team-wide metrics, and historical trends to highlight standout performances and long-term contributors to the franchise.
 The entire analysis was performed using SQL and dashboard development in tools like Power BI.
 
-## 🛠 Tools & Technologies
+### 🛠 Tools & Technologies
 - **PostgreSQL** – Querying and aggregation
 - **Window Functions** – For ranking and time-based analysis
 - **Common Table Expressions (CTEs)** – For streak and cohort calculations
