@@ -35,8 +35,8 @@ The entire analysis was performed using SQL and dashboard development in tools l
 - **Window Functions** – For ranking and time-based analysis
 - **Common Table Expressions (CTEs)** – For streak and cohort calculations
   
-- Power BI Analysis Overview  
-For the dashboard portion of this project, the original MLB dataset was cleaned, transformed, and structured into a robust data model using Power BI.
+- **Power BI** Analysis Overview  
+For the dashboard portion of this project, the original MLB dataset was cleaned, transformed, and structured into a robust data model.
 
 ### 🔄 Data Preparation:
 - ✅ **CSV Segmentation**: The original dataset was split into four focused CSV files:
