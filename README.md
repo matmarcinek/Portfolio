@@ -39,7 +39,7 @@ For the dashboard portion of this project, the original MLB dataset was cleaned,
 - 🔗 **Data Modeling**: All sources were connected in Power BI through relationships and lookups to create a unified star schema optimized for analysis.
 
 
-### 🫀 [Heart Disease Prediction using Machine Learning](https://github.com/matmarcinek/Heart-Disease-Prediction-using-Machine-Learning)
+### 🫀[Project 3 Heart Disease Prediction using Machine Learning](https://github.com/matmarcinek/Heart-Disease-Prediction-using-Machine-Learning)
 
 ### 🔍 Problem Statement
 The objective is to predict whether a patient has heart disease (binary classification) using features such as age, sex, chest pain type, resting blood pressure, cholesterol levels, and other clinical data.
