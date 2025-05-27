@@ -66,11 +66,11 @@ Feature Importance Analysis
 
 
 ### 🧪 Tools & Libraries
-Python (Pandas, NumPy)
+**Python** (**Pandas**, **NumPy**)
 
-Visualization: Matplotlib, Seaborn
+Visualization: **Matplotlib**, **Seaborn**
 
-Machine Learning: Scikit-learn
+Machine Learning: **Scikit-learn**
 
 
 ### ✅ Outcome
