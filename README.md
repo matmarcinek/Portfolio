@@ -74,7 +74,7 @@ Machine Learning: **Scikit-learn**
 
 
 ### ✅ Outcome
-The best-performing model reached an accuracy goal close to 90%, showcasing effective feature usage and model tuning
+The best-performing model reached accuracy close to 90%, showcasing effective feature usage and model tuning
 
 
 
