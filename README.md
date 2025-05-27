@@ -14,15 +14,6 @@ A concise data analysis project exploring Airbnb listings in New York City using
 - **Tableau Desktop**
 
 
-
-
-
-
-
-
-
-
-
 ### 🏙️[Project 2: Decoding the Cubs Offensive Performance Through Data](https://github.com/matmarcinek/Decoding-the-Cubs-Offensive-Performance-Through-Data)
 
 
@@ -46,3 +37,48 @@ For the dashboard portion of this project, the original MLB dataset was cleaned,
   - `stats.csv` – Offensive statistics (HRs, AVG, OPS, etc.)
 - 🌐 **Web Scraping**: Attendance data across seasons was scraped from a [reliable source](https://www.baseball-reference.com/teams/CHC/attend.shtml) and added to the model to analyze fan engagement over time.
 - 🔗 **Data Modeling**: All sources were connected in Power BI through relationships and lookups to create a unified star schema optimized for analysis.
+
+
+### 🫀 [Heart Disease Prediction using Machine Learning](https://github.com/matmarcinek/Heart-Disease-Prediction-using-Machine-Learning)
+
+### 🔍 Problem Statement
+The objective is to predict whether a patient has heart disease (binary classification) using features such as age, sex, chest pain type, resting blood pressure, cholesterol levels, and other clinical data.
+
+
+### 🧾 Dataset
+Source: Kaggle – Heart Disease Classification Dataset
+
+Attributes used: 14 (including age, sex, cp, chol, thalach, etc.)
+
+Target: 1 indicates presence of heart disease, 0 indicates absence
+
+
+### ⚙️ Workflow
+Exploratory Data Analysis (EDA)
+
+Model Building: Multiple classifiers including Logistic Regression, Random Forest, and K-Nearest Neighbors
+
+Model Evaluation: Accuracy, precision, recall, F1-score
+
+Cross-Validation & Hyperparameter Tuning
+
+Feature Importance Analysis
+
+
+### 🧪 Tools & Libraries
+Python (Pandas, NumPy)
+
+Visualization: Matplotlib, Seaborn
+
+Machine Learning: Scikit-learn
+
+
+### ✅ Outcome
+The best-performing model reached an accuracy goal close to 90%, showcasing effective feature usage and model tuning
+
+
+
+
+
+
+
