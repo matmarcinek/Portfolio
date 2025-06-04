@@ -111,7 +111,7 @@ Best-performing model achieved ~90% accuracy, demonstrating the effectiveness of
 
 ---
 
-### 🍔 [Project 4: Food Image Classification Using Deep Learning](https://github.com/yourusername/food-image-classification)
+### 🍔 [Project 4: Food Image Classification Using Deep Learning](https://github.com/matmarcinek/Food-Image-Classification-using-Deep-Learning)
 
 ### 🔍 Problem Statement  
 This project aims to classify food images into one of three selected categories using deep learning. It showcases how CNNs and transfer learning can be applied in applications like diet tracking, kitchen assistants, or restaurant tech.
@@ -119,7 +119,7 @@ This project aims to classify food images into one of three selected categories 
 ---
 
 ### 🧾 Dataset  
-- **Source:** [Food-101 Dataset – ETH Zurich](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)  
+- **Source:** [Food-101 Dataset – ETH Zurich](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101)  
 - **Scope:** 3 food classes selected (tacos,breakfast burritos and ravioli - approx. 10% of the full dataset)  
 - **Structure:** Organized in labeled train/test folders
 
