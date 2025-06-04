@@ -1,135 +1,164 @@
-# Portfolio 
-### 🏙️[Project 1: AirBnb New York Market Analysis](https://github.com/matmarcinek/AirBnb)
+# 📁 Portfolio
 
-A concise data analysis project exploring Airbnb listings in New York City using Python and Tableau.
+---
 
-### 🔍 Overview
-- Analyzed Airbnb data with **Python** (Pandas, Seaborn, Matplotlib)
-- Visualized key trends using **Tableau**
-- Explored **pricing**, **room types**, and **neighborhood distributions**
+### 🏙️ [Project 1: Airbnb New York Market Analysis](https://github.com/matmarcinek/AirBnb)
 
-### 🛠 Tools & Technologies
-- **Python** – Pandas, Seaborn, Matplotlib
-- **Jupyter Notebook**
+### 🔍 Problem Statement  
+A concise data analysis project exploring Airbnb listings in New York City using Python and Tableau to uncover pricing trends, room type distributions, and neighborhood patterns.
+
+---
+
+### 🧾 Dataset  
+- **Source:** Inside Airbnb  
+- **Content:** Listings data for NYC including prices, room types, location coordinates, and availability
+
+---
+
+### ⚙️ Workflow  
+- Data cleaning and wrangling using **Pandas**  
+- Exploratory data analysis with **Seaborn** and **Matplotlib**  
+- Visualization of key findings in **Tableau**  
+- Identified price variation by neighborhood and room type
+
+---
+
+### 🧪 Tools & Libraries  
+- **Python** – Pandas, Seaborn, Matplotlib  
+- **Jupyter Notebook**  
 - **Tableau Desktop**
 
+---
 
-### 🏙️[Project 2: Decoding the Cubs Offensive Performance Through Data](https://github.com/matmarcinek/Decoding-the-Cubs-Offensive-Performance-Through-Data)
-
-
-### 🔍 Overview
-This project explores the offensive performance of the Chicago Cubs using **PostgreSQL** queries on Major League Baseball data. The analysis covers key player statistics, team-wide metrics, and historical trends to highlight standout performances and long-term contributors to the franchise.
-The entire analysis was performed using SQL and dashboard development in tools like **Power BI**  .
-
-### 🛠 Tools & Technologies
-- **PostgreSQL** – Querying and aggregation
-- **Window Functions** – For ranking and time-based analysis
-- **Common Table Expressions (CTEs)** – For streak and cohort calculations
-  
-- **Power BI** Analysis Overview  
-For the dashboard portion of this project, the original MLB dataset was cleaned, transformed, and structured into a robust data model.
-
-### 🔄 Data Preparation:
-- ✅ **CSV Segmentation**: The original dataset was split into four focused CSV files:
-  - `teams.csv` – Team-level details
-  - `players.csv` – Player identifiers and names
-  - `seasons.csv` – Seasonal breakdowns
-  - `stats.csv` – Offensive statistics (HRs, AVG, OPS, etc.)
-- 🌐 **Web Scraping**: Attendance data across seasons was scraped from a [reliable source](https://www.baseball-reference.com/teams/CHC/attend.shtml) and added to the model to analyze fan engagement over time.
-- 🔗 **Data Modeling**: All sources were connected in Power BI through relationships and lookups to create a unified star schema optimized for analysis.
-
-
-### 🫀[Project 3 Heart Disease Prediction using Machine Learning](https://github.com/matmarcinek/Heart-Disease-Prediction-using-Machine-Learning)
-
-### 🔍 Problem Statement
-The objective is to predict whether a patient has heart disease (binary classification) using features such as age, sex, chest pain type, resting blood pressure, cholesterol levels, and other clinical data.
-
-
-### 🧾 Dataset
-Source: Kaggle – Heart Disease Classification Dataset
-
-Attributes used: 14 (including age, sex, cp, chol, thalach, etc.)
-
-Target: 1 indicates presence of heart disease, 0 indicates absence
-
-
-### ⚙️ Workflow
-Exploratory Data Analysis (EDA)
-
-Model Building: Multiple classifiers including Logistic Regression, Random Forest, and K-Nearest Neighbors
-
-Model Evaluation: Accuracy, precision, recall, F1-score
-
-Cross-Validation & Hyperparameter Tuning
-
-Feature Importance Analysis
-
-
-### 🧪 Tools & Libraries
-**Python** (**Pandas**, **NumPy**)
-
-Visualization: **Matplotlib**, **Seaborn**
-
-Machine Learning: **Scikit-learn**
-
-
-### ✅ Outcome
-The best-performing model reached accuracy close to 90%, showcasing effective feature usage and model tuning
-
-
-# 🍔 Food Image Classification Using Deep Learning
-
-## 🔍 Problem Statement  
-The goal of this project is to classify images of food into 3 different categories using deep learning. Accurate food classification can be applied in nutrition tracking apps, smart kitchen assistants, or restaurant recommendation systems.
+### ✅ Outcome  
+Generated a clean, insightful Tableau dashboard showcasing pricing and availability trends across NYC's five boroughs, helping understand key supply/demand dynamics in the Airbnb market.
 
 ---
 
-## 🧾 Dataset  
+### 🏟️ [Project 2: Decoding the Cubs Offensive Performance Through Data](https://github.com/matmarcinek/Decoding-the-Cubs-Offensive-Performance-Through-Data)
+
+### 🔍 Problem Statement  
+Analyzed the Chicago Cubs' offensive performance using **PostgreSQL** and **Power BI**, exploring player stats, seasonal trends, and team performance to surface insights on historical strengths and fan engagement.
+
+---
+
+### 🧾 Dataset  
+- **Source:** MLB offensive stats + attendance data from [Baseball Reference](https://www.baseball-reference.com/teams/CHC/attend.shtml)  
+- **Structure:** Multiple CSVs for players, teams, seasons, stats
+
+---
+
+### ⚙️ Workflow  
+- SQL-based analysis using **PostgreSQL**  
+- Window functions and CTEs for historical and cohort-based analysis  
+- Dashboard development with **Power BI** for interactive data storytelling
+
+---
+
+### 🔄 Data Preparation  
+- ✅ **CSV Segmentation**: Teams, players, seasons, and stats  
+- 🌐 **Web Scraping**: Historical fan attendance data  
+- 🔗 **Data Modeling**: Unified star schema in Power BI for seamless slicing/filtering
+
+---
+
+### 🧪 Tools & Libraries  
+- **PostgreSQL** – Querying, aggregations, and joins  
+- **Power BI** – Data modeling and interactive dashboards
+
+---
+
+### ✅ Outcome  
+Developed a robust analytical dashboard highlighting top Cubs hitters by era, streaks across seasons, and attendance trends aligned with team performance.
+
+---
+
+### 🫀 [Project 3: Heart Disease Prediction Using Machine Learning](https://github.com/matmarcinek/Heart-Disease-Prediction-using-Machine-Learning)
+
+### 🔍 Problem Statement  
+Built a predictive model to determine the likelihood of heart disease based on patient health attributes such as age, blood pressure, cholesterol, and chest pain type.
+
+---
+
+### 🧾 Dataset  
+- **Source:** [Kaggle – Heart Disease UCI Dataset](https://www.kaggle.com/datasets/ronitf/heart-disease-uci)  
+- **Attributes:** 14 features including age, sex, chest pain (cp), cholesterol, max heart rate (thalach), etc.  
+- **Target Variable:** 1 = presence of heart disease, 0 = absence
+
+---
+
+### ⚙️ Workflow  
+- Data cleaning and EDA  
+- Model training using multiple classifiers:
+  - Logistic Regression  
+  - Random Forest  
+  - K-Nearest Neighbors  
+- Model evaluation with accuracy, precision, recall, and F1-score  
+- Cross-validation and hyperparameter tuning  
+- Feature importance analysis
+
+---
+
+### 🧪 Tools & Libraries  
+- **Python** – Pandas, NumPy  
+- **Scikit-learn** – Modeling and evaluation  
+- **Matplotlib**, **Seaborn** – Data visualization
+
+---
+
+### ✅ Outcome  
+Best-performing model achieved ~90% accuracy, demonstrating the effectiveness of simple ML models when paired with proper feature engineering and evaluation techniques.
+
+---
+
+### 🍔 [Project 4: Food Image Classification Using Deep Learning](https://github.com/yourusername/food-image-classification)
+
+### 🔍 Problem Statement  
+This project aims to classify food images into one of three selected categories using deep learning. It showcases how CNNs and transfer learning can be applied in applications like diet tracking, kitchen assistants, or restaurant tech.
+
+---
+
+### 🧾 Dataset  
 - **Source:** [Food-101 Dataset – ETH Zurich](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)  
-- **Classes:** 101 food categories (e.g., pizza, burger, sushi, pad thai)  
-- **Size:** 101,000 images (750 training + 250 testing images per class)  
-- **Structure:** Organized in folders per class with separate train/test splits
-
-For this project only 3 food categories and 10% of dataset was used.
+- **Scope:** 3 food classes selected (approx. 10% of the full dataset)  
+- **Structure:** Organized in labeled train/test folders
 
 ---
 
-## ⚙️ Workflow  
-- Data Loading and Directory Structuring  
-- Image Preprocessing & Augmentation with `ImageDataGenerator`  
-- Model Design:  
-  - Custom Convolutional Neural Network (CNN)  
+### ⚙️ Workflow  
+- Image preprocessing and augmentation with `ImageDataGenerator`  
+- Model development:  
+  - Custom CNN  
   - Transfer Learning with **MobileNetV2**  
-- Model Training and Evaluation  
-- Visualization of Training & Validation Accuracy/Loss
+- Training with validation monitoring  
+- Visualization of accuracy/loss metrics
 
 ---
 
-## 🧪 Tools & Libraries  
-- **Python**
+### 🧪 Tools & Libraries  
+- **Python**  
 - **TensorFlow**, **Keras** – Deep learning framework  
-- **NumPy**, **Pandas** – Data manipulation  
-- **Matplotlib** – Visualization  
-- **ImageDataGenerator** – Real-time image augmentation
+- **NumPy**, **Pandas** – Data handling  
+- **Matplotlib** – Visualization
 
 ---
 
-## ✅ Outcome  
-- Achieved high validation accuracy on a complex multi-class image dataset  
-- Transfer Learning with MobileNetV2 improved performance and reduced training time  
-- This project highlights the practical use of CNNs for real-world image classification challenges
+### ✅ Outcome  
+- High validation accuracy across 3 classes  
+- Transfer learning significantly reduced training time and improved results  
+- Demonstrated a solid baseline for real-world food recognition applications
 
 ---
 
-
-## 🚀 Future Work  
-- Integrate with a web app for real-time food recognition  
-- Implement additional architectures (e.g., ResNet, EfficientNet)  
-- Experiment with model quantization for mobile deployment
+### 🚀 Future Work  
+- Expand model to cover all 101 classes  
+- Deploy as a real-time web application  
+- Explore model compression for mobile deployment  
+- Test advanced architectures like ResNet and EfficientNet
 
 ---
 
-> 👨‍🍳 This project serves as a foundation for AI-based food recognition systems across health, diet, and hospitality domains.
+> 👨‍💻 This portfolio showcases end-to-end data science and machine learning skills, from data wrangling to interactive visualization and deep learning.
 
 
 
