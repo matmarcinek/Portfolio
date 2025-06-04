@@ -77,6 +77,60 @@ Machine Learning: **Scikit-learn**
 The best-performing model reached accuracy close to 90%, showcasing effective feature usage and model tuning
 
 
+# 🍔 Food Image Classification Using Deep Learning
+
+## 🔍 Problem Statement  
+The goal of this project is to classify images of food into 3 different categories using deep learning. Accurate food classification can be applied in nutrition tracking apps, smart kitchen assistants, or restaurant recommendation systems.
+
+---
+
+## 🧾 Dataset  
+- **Source:** [Food-101 Dataset – ETH Zurich](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)  
+- **Classes:** 101 food categories (e.g., pizza, burger, sushi, pad thai)  
+- **Size:** 101,000 images (750 training + 250 testing images per class)  
+- **Structure:** Organized in folders per class with separate train/test splits
+
+For this project only 3 food categories and 10% of dataset was used.
+
+---
+
+## ⚙️ Workflow  
+- Data Loading and Directory Structuring  
+- Image Preprocessing & Augmentation with `ImageDataGenerator`  
+- Model Design:  
+  - Custom Convolutional Neural Network (CNN)  
+  - Transfer Learning with **MobileNetV2**  
+- Model Training and Evaluation  
+- Visualization of Training & Validation Accuracy/Loss
+
+---
+
+## 🧪 Tools & Libraries  
+- **Python**
+- **TensorFlow**, **Keras** – Deep learning framework  
+- **NumPy**, **Pandas** – Data manipulation  
+- **Matplotlib** – Visualization  
+- **ImageDataGenerator** – Real-time image augmentation
+
+---
+
+## ✅ Outcome  
+- Achieved high validation accuracy on a complex multi-class image dataset  
+- Transfer Learning with MobileNetV2 improved performance and reduced training time  
+- This project highlights the practical use of CNNs for real-world image classification challenges
+
+---
+
+
+## 🚀 Future Work  
+- Integrate with a web app for real-time food recognition  
+- Implement additional architectures (e.g., ResNet, EfficientNet)  
+- Experiment with model quantization for mobile deployment
+
+---
+
+> 👨‍🍳 This project serves as a foundation for AI-based food recognition systems across health, diet, and hospitality domains.
+
 
 
 
