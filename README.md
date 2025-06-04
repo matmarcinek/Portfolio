@@ -120,7 +120,7 @@ This project aims to classify food images into one of three selected categories 
 
 ### 🧾 Dataset  
 - **Source:** [Food-101 Dataset – ETH Zurich](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)  
-- **Scope:** 3 food classes selected (approx. 10% of the full dataset)  
+- **Scope:** 3 food classes selected (tacos,breakfast burritos and ravioli - approx. 10% of the full dataset)  
 - **Structure:** Organized in labeled train/test folders
 
 ---
